@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>陈昱-个人简历</title>
+    <link rel="shortcut icon" href="image/头像.jpg"/>
+
+</head>
+<body>
+    <div class="container">
+        <div class="leftSide">
+           <div class="profile">
+               <img src="image/头像.jpg" alt="personal pic">
+               <h1> 陈 昱 </h1>
+               <h1><span>中国共产党党员</span></h1>
+               <h1><span>工业工程与管理硕士</span></h1>
+           </div>
+
+           <div class="contactInfo">
+               <h3 class="title">联系方式</h3>
+               <ul>
+                   <li>
+                    <span class="material-icons">
+                        call
+                    </span>
+                    <span class="text">189 8163 9393</span>
+                   </li>
+                   <li>
+                    <span class="material-icons">
+                        email
+                    </span>
+                    <span class="text">chenyu.mail@foxmail.com</span>
+                   </li>
+                   <li>
+                    <span class="material-icons">
+                        language
+                    </span>
+                    <a href="https://github.com/Vichenyuu" target="_blank"><span class="text">github.com/Vichenyuu</span></a>
+                   </li>
+                   <li>
+                    <span class="material-icons">
+                        location_on
+                    </span>
+                    <span class="text">江苏省-徐州市</span>
+                   </li>
+               </ul>
+           </div>
+
+           <div class="contactInfo education">
+               <h3 class="title">教育经历</h3>
+                 <ul>
+                     <li>
+                         <h5>2024-2027</h5>
+                         <h4>中国矿业大学-211</h4>
+                         <h4>工业工程与管理-硕士</h4>
+                         <span class="text">研究方向：机器视觉、姿态评估、设施规划、生产计划、质量控制</span>
+                     </li>
+                     <li>
+                        <h5>2020-2024</h5>
+                        <h4>中国矿业大学-211</h4>
+                        <h4>工业工程-本科</h4>
+                        <span class="text">主修课程：人因工程、质量控制、系统工程、管理信息系统、基础IE</span>
+                    </li>
+                 </ul>
+           </div>
+
+           <div class="contactInfo language">
+                <h3 class="title">语言</h3>
+                <ul>
+                    <li> <span class="text">CET4: 507/710</span> </li>
+                    <li> <span class="percent">
+                        <div style="width:calc(507/710*100%)"></div>
+                    </span> </li>
+
+                    <li> <span class="text">CET6: 449/710</span> </li>
+                    <li> <span class="percent">
+                        <div style="width:calc(449/710*100%)"></div>
+                    </span> </li>
+                </ul>
+           </div>
+
+            <div class="messageDisplay">
+                <h3 class="title">留言区</h3>
+                <ul id="messageList">
+                </ul>
+            </div>
+
+
+
+            <div class="messageBoard">
+                <h3 class="title3">留言板</h3>
+                <form class="messageForm">
+                    <div class="form-group">
+                        <label for="name">姓名:</label>
+                        <input type="text" id="name" name="name" required class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">邮箱:</label>
+                        <input type="email" id="email" name="email" required class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">留言:</label>
+                        <textarea id="message" name="message" rows="4" required class="form-control message-textarea"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">提交留言</button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="rightSide">
+            <div class="about">
+                <h2 class="title2">个人介绍</h2>
+                <p>您好，我叫陈昱，本硕均就读于中国矿业大学，拥有工业工程本科和硕士学历，
+                   目前期望寻找短期实习或全职工作。我对传统工业工程掌握及应用程度较高，
+                   同时对智能化工厂的建设以及机器学习方面有相关经验，擅长使用CAD、MATLAB等工业软件，
+                   熟悉Python、HTML、JavaScript等语言。拥有扎实的专业知识，
+                   较强的学习能力及表达沟通能力，连续三年获得校级奖学金。
+                   工作态度认真负责，团队协作能力强，能在压力环境下完成挑战性工作。在业余时间，喜欢运动。</p>
+            </div>
+
+            <div class="about">
+                <h2 class="title2">荣誉奖项</h2>
+                <p>个人荣誉：校级优秀毕业生、校级优秀共青团员、校级优秀青年志愿者、校级一等奖学金、院级优秀学生干部 等</p>
+                <p>比赛获奖：清华IE亮剑三等奖、中国机械学会工业工程与精益管理三等奖 等</p>
+            </div>
+
+            <div class="about">
+                <h2 class="title2">实习经验</h2>
+                <div class="box">
+                    <div class="year-company">
+                        <h5>2023.12 - 2024.01</h5>
+                        <h5>广东佛山启新汽车零</h5>
+                        <h5>部件有限公司</h5>
+                    </div>
+                    <div class="text">
+                        <h4>精益部-SLP/设施规划与设计</h4>
+                        <p>生产信息确定：参与企业产品分析，对产品工艺和生产流程调研，测定各工序机时与人时。 </p>
+                        <p>车间布局规划：设计了单件流为生产方式的直线型生产线车间，并提出和设计了U型线、并行线等备选方案。</p>
+                        <p>车间仿真分析：通过利用Anylogic软件将车间设计进行仿真模拟，得出最优人员排配模式，利用率达83%。</p>
+                        <p>辅助设备设计：借助CAD和Revit软件，对生产线设备前联动式水槽以及操作员随身万向小车进行设计。</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="year-company">
+                        <h5>2023.07 - 2023.08</h5>
+                        <h5>晋能控股集团成庄矿</h5>
+                    </div>
+                    <div class="text">
+                        <h4>生产部-PMC/生产物料管理</h4>
+                        <p>生产计划优化：根据实际生产需求，制定精准的MRP计划，监控物料使用，减少生产成本18.8%。</p>
+                        <p>流程规范重建：重建业务流程，协助建立物料收发管理制度，物料审批流程从2天降低至1天。</p>
+                        <p>仓库设计创新：借助Revit技术，设计仓库及货架BIM模型，进行作业姿态分析，减少工人疲劳程度。</p>
+                        <p>MIS系统完善：处理通用物料相关电子流，参与MIS系统的设计与协调，优化信息处理流程。</p>
+                        <p>J I T生产管理：控制仓储状况，实施即时生产策略，减少30%呆滞库存。</p>
+                    </div>
+                </div>
+
+            <div class="about">
+                <h2 class="title2">项目经验</h2>
+                <div class="box">
+                    <div class="year-company">
+                        <h5>2022.09 – 2023.06</h5>
+                        <h5>煤矿注浆充填大数据</h5>
+                        <h5>管理系统研究</h5>
+                    </div>
+                    <div class="text">
+                        <h4>第一负责人</h4>
+                        <p>项目背景：行业数据化改革，利用大数据技术，提高资源的回收率及经济效益，为开采安全提供技术性保证。</p>
+                        <p>项目开展：通过阅读相应文献，多次与煤矿企业进行深度交流，编制数据库与MIS程序。</p>
+                        <p>项目实现：以OneNote及wps形式构建单机数据库。</p>
+                        <p>项目成果：设计得一个以Onenote制作的管理信息系统，通过企业验证与研究，准确率较之前提高30%。</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="year-company">
+                        <h5>2021.09 – 2023.06</h5>
+                        <h5>基于排队理论的医院</h5>
+                        <h5>体检排队研究</h5>
+                    </div>
+                    <div class="text">
+                        <h4>第一负责人</h4>
+                        <p>项目背景：快速增长的体检需求，导致体检科室门外体检者排队混乱、长时间等待等一系列问题。</p>
+                        <p>项目开展：经过十余次实地考察，阅读相应文献，学习排队论方法应用与软件使用。</p>
+                        <p>项目实现：通过利用 Anylogic 流程库，汇编 JAVA 语言进行逻辑设计。</p>
+                        <p>项目成果：设计得一个交互式排队模型，通过与医院交流并通过实地测试，平均体检等待时间减少43分钟。</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="about">
+                <h2 class="title2">学生工作</h2>
+                <div class="box">
+                    <div class="year-company">
+                        <h5>2021.09 – 2022.06</h5>
+                        <h5>学生会体育部</h5>
+                    </div>
+                    <div class="text">
+                        <h4>部长</h4>
+                        <p>团队管理：根据工作任务，合理分配超50余人的团队进行工作，管理并制定学年工作任务。</p>
+                        <p>活动统筹：跟进各项活动流程，完成五次校级、二十余次院级活动的举办，均取得不错的成绩。</p>
+                        <p>资源协调：跟进协助各活动资源使用，实现各项资源使用率达90%。</p>
+                    </div>
+                </div>
+            </div>
+
+           <div class="about skills">
+                <h2 class="title2">专业技能</h2>
+                 <div class="box">
+                    <h4>CAD</h4>
+                    <div class="percent">
+                        <div style="width:95%"></div>
+                    </div>
+                 </div>
+
+                 <div class="box">
+                    <h4>HTML</h4>
+                    <div class="percent">
+                        <div style="width:88%"></div>
+                    </div>
+                 </div>
+
+                 <div class="box">
+                    <h4>Anylogic</h4>
+                    <div class="percent">
+                        <div style="width:95%"></div>
+                    </div>
+                 </div>
+
+                 <div class="box">
+                    <h4>Pytho</h4>
+                    <div class="percent">
+                        <div style="width:80%"></div>
+                    </div>
+                 </div>
+
+                 <div class="box">
+                    <h4>精益生产</h4>
+                    <div class="percent">
+                        <div style="width:95%"></div>
+                    </div>
+                 </div>
+                 <div class="box">
+                    <h4>设施规划</h4>
+                    <div class="percent">
+                        <div style="width:85%"></div>
+                    </div>
+                 </div>
+
+                 <div class="box">
+                    <h4>生产计划</h4>
+                    <div class="percent">
+                        <div style="width:80%"></div>
+                    </div>
+                 </div>
+                 <div class="box">
+                     <h4>质量控制</h4>
+                     <div class="percent">
+                         <div style="width:88%"></div>
+                     </div>
+                 </div>
+           </div>
+
+           <div class="about interest">
+              <h2 class="title2">兴趣爱好</h2>
+                <ul>
+                    <li>
+                        <span class="material-icons" style="vertical-align:-6px;">
+                            sports_basketball
+                        </span>
+                        篮球
+                    </li>
+                    <li>
+                        <span class="material-icons" style="vertical-align:-6px;">
+                            code
+                        </span>
+                        编程
+                    </li>
+                    <li>
+                        <span class="material-icons" style="vertical-align:-6px;">
+                            music_note
+                        </span>
+                        音乐
+                    </li>
+                    <li>
+                        <span class="material-icons" style="vertical-align:-6px;">
+                            fitness_center
+                        </span>
+                        锻炼
+                    </li>
+                </ul>
+                </div>
+                <div class="about">
+                    <h2 class="title2">自我评价</h2>
+                    <p>拥有扎实的专业知识，较强的学习能力及表达沟通能力，连续四年获得校级奖学金。</p>
+                    <p>性格开朗，易相处，能迅速适应各种环境，工作态度认真负责，能在压力环境下完成挑战性工作。</p>
+                    <p>在工作中能够与团队成员和其他部门有效合作，共同推进项目的进展。</p>
+                </div>
+            </div>
+        </div>
+</div>
+    <script src="java.js"></script>
+    <script>
+        const messageContent = `
+            <strong>${name}:</strong>
+            <p>${message}</p>
+            <button class="deleteButton" type="button">删除</button>`;
+    </script>
+</body>
+</html>
+
